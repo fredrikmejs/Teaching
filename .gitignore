@@ -3,7 +3,9 @@
 *.aar
 *.ap_
 *.aab
-.idea/*
+*.dex
+*.flat
+
 # Files for the ART/Dalvik VM
 *.dex
 
@@ -36,14 +38,21 @@ proguard/
 # Android Studio captures folder
 captures/
 
+
 # IntelliJ
 *.iml
+.idea/gradle.xml
+.idea/misc.xml
 .idea/workspace.xml
 .idea/tasks.xml
-.idea/gradle.xml
 .idea/assetWizardSettings.xml
 .idea/dictionaries
 .idea/libraries
+.idea/runConfigurations.xml
+.idea/*
+
+*/.idea/*
+
 # Android Studio 3 in .gitignore file.
 .idea/caches
 .idea/modules.xml
@@ -62,27 +71,12 @@ captures/
 # Google Services (e.g. APIs or Firebase)
 # google-services.json
 
-# Freeline
-freeline.py
-freeline/
-freeline_project_description.json
 
-# fastlane
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
-fastlane/readme.md
+
+
+app/gradle/*
+app/gradle/
 
 # Version control
 vcs.xml
 
-# lint
-lint/intermediates/
-lint/generated/
-lint/outputs/
-lint/tmp/
-# lint/reports/
-
-# Android Profiling
-*.hprof
